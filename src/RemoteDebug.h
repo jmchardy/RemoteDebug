@@ -242,6 +242,7 @@ class RemoteDebug: public Print
 	void disconnect(boolean onlyTelnetClient = false);
 
 	void setSerialEnabled(boolean enable);
+	boolean isSerialEnabled();
 
 	void setResetCmdEnabled(boolean enable);
 
