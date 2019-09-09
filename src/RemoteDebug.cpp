@@ -747,6 +747,10 @@ void RemoteDebug::setSerialEnabled(boolean enable) {
 
 }
 
+boolean RemoteDebug::isSerialEnabled() {
+	return _serialEnabled;
+}
+
 // Allow ESP reset over telnet client
 
 void RemoteDebug::setResetCmdEnabled(boolean enable) {
